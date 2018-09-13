@@ -20,11 +20,13 @@
   
   * 安装依赖
   
-  > cnpm install
+    cnpm install
   
   * 依赖安装成功后执行启动命令
   
-  > node server.js 或者 npm start
+    node server.js 或者 npm start
   
-  ## 
+  > 服务端使用 js 变量来保存用户数据, 如果重启服务端, 用户数据就清空了
+  
+  > 如需持久化存储用户数据, 需自行实现数据库相关逻辑
 
