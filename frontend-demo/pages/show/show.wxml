@@ -1,0 +1,18 @@
+<view class="carts-list">
+  <view class="list">
+    <view
+      wx:for="{{orderList}}"
+      wx:key="index"
+      class="order flex-col">
+
+      <view class="flex-row main-align-space-between cell-item van-hairline">
+        <view class="order-address flex-row cross-align-center">
+          <i class="iconfont icon-address"></i> 
+           <text>{{item.address}}</text>
+        </view>
+      </view>
+    </view>  
+  </view>
+</view>
+
+

@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <view wx:if="{{!userInfo.nickName}}">
+      <button 
+        open-type="getUserInfo" 
+        bindgetuserinfo="bindUserInfo"> 
+        获取头像昵称 
+      </button>
+    </view>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" bindtap='bindViewTap'></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="userinfo">
+    <view wx:if="{{!userInfo.phoneNumber}}">
+      <button
+        open-type="getPhoneNumber" 
+        bindgetphonenumber="bindPhoneNumber">
+          获取手机号码
+      </button>     
+    </view>
+    <text wx:else>{{userInfo.phoneNumber}}</text>
+  </view> 
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

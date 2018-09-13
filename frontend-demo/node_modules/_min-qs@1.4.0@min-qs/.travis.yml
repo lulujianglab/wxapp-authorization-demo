@@ -1,0 +1,10 @@
+language: node_js
+branches:
+  only:
+  - gh-pages
+env:
+  global:
+  - SAUCE_USERNAME: chunpu2
+  - secure: I6rcolZwnuxgTwiDM6QpQQFdexx7UG2I+FgfMdsE9OZ/pXA6vjq+5rpH6Sn6V45OfEhmOScgLxWPdFyhnD47jhh0JXLNUcoq+j5s4REvhJVXUU6kNdiSil1Kzlj2z3Ka2GGBX1PGW9pBAUeEHytqmNrhxR5n5lXDGfVlRPLNoKg=
+script: npm run test-travis
+after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls

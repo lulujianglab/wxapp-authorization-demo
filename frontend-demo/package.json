@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@chunpu/http": "^1.1.1",
+    "min-qs": "^1.4.0",
+    "min-ready": "^2.3.0",
+    "min-util": "^3.3.1"
+  }
+}
