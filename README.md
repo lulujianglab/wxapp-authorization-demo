@@ -43,4 +43,26 @@
   1. 使用最新版微信开发者工具(需[支持npm](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)) 新建项目
   1. 根据文档安装依赖 `cnpm install --production` 并构建 npm
   1. 点击编译查看效果
+  
+ # 微信api
+ 
+[wx.setStorage(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/data.html)
+
+[wx.getStorage(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/data.html)
+
+[wx.showToast(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/api-react.html)
+
+[wx.navigateTo(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/ui-navigate.html)
+
+[wx.login(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/api-login.html)
+
+[wx.checkSession(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/signature.html#wxchecksessionobject)
+
+[wx.getUserInfo(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/open.html#wxgetuserinfoobject)
+
+[getPhoneNumber(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/getPhoneNumber.html)
+
+[wx.startPullDownRefresh(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/pulldown.html#pageonpulldownrefresh)
+
+[wx.stopPullDownRefresh()](https://developers.weixin.qq.com/miniprogram/dev/api/pulldown.html#wxstartpulldownrefresh)
 
