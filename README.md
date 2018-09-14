@@ -28,5 +28,19 @@
   
   > 服务端使用 js 变量来保存用户数据, 如果重启服务端, 用户数据就清空了
   
-  > 如需持久化存储用户数据, 需自行实现数据库相关逻辑
+  ## frontend-demo
+  
+  * 安装依赖
+  
+    cnpm install
+  
+  * 依赖安装成功后执行启动命令
+  
+    npm run dev
+  
+  * 微信小程序
+ 
+  1. 使用最新版微信开发者工具(需[支持npm](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)) 新建项目
+  1. 根据文档安装依赖 `cnpm install --production` 并构建 npm
+  1. 点击编译查看效果
 
