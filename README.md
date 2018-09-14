@@ -66,3 +66,6 @@
 
 [wx.stopPullDownRefresh()](https://developers.weixin.qq.com/miniprogram/dev/api/pulldown.html#wxstartpulldownrefresh)
 
+[wx.showNavigationBarLoading()](https://developers.weixin.qq.com/miniprogram/dev/api/ui.html#wxsetnavigationbartitleobject)
+
+[wx.hideNavigationBarLoading()](https://developers.weixin.qq.com/miniprogram/dev/api/ui.html#wxsetnavigationbartitleobject)
