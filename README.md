@@ -44,6 +44,8 @@
   1. 根据文档安装依赖 `cnpm install --production` 并构建 npm
   1. 点击编译查看效果
   
+# 具体实现过程可见[博客](https://github.com/lulujianglab/blog/issues/29)
+  
  # 微信api
  
 [wx.setStorage(OBJECT)](https://developers.weixin.qq.com/miniprogram/dev/api/data.html)
